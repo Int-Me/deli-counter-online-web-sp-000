@@ -2,11 +2,12 @@
 katz_deli = []
 
 def line(deli)
+  list = "The line is currently:"
+  ticknum = 1
   if deli == []
     puts "The line is currently empty."
   else
-    list = "The line is currently:"
-    ticknum = 1
+
     deli.each do |name|
       list << " #{ticknum}. #{name}"
       ticknum++
