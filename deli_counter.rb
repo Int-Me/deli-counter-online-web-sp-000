@@ -9,9 +9,9 @@ def line(deli)
     ticknum = 1
     deli.each do |name|
       list << " #{ticknum}. #{name}"
-      puts list
       ticknum++
-
+    end
+    puts list
   end
 end
 
