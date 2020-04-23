@@ -6,11 +6,6 @@ def line(deli)
     puts "The line is currently empty."
   else
     list = ""
-    for(i = 0; i <= deli.length; i++)
-      {
-     list << "#{i} #{deli[i]} "
-   }
-      puts "The line is currently: #{list}"
   end
 end
 
