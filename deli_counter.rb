@@ -7,11 +7,11 @@ def line(deli)
   else
     list = "The line is currently:"
     ticknum = 1
-    deli.each { |name|
+    deli.each do |name|
       list << " #{ticknum}. #{name}"
       puts list
       ticknum++
-    }
+    end
   end
 end
 
