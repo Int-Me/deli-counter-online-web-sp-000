@@ -11,7 +11,7 @@ def line(deli)
       list << " #{ticknum}. #{name}"
       ticknum++
     end
-    puts list
+
   end
 end
 
